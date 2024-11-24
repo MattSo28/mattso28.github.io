@@ -75,10 +75,10 @@ footer p {
 }
 
 .logos img {
-    width: 80px;        /* Adjust the size of the logos */
-    height: auto;
+    max-width: 100px;  /* Sets a maximum width while maintaining aspect ratio */
+    height: auto;      /* Automatically adjusts height to maintain aspect ratio */
+    padding: 10px;     /* Adds internal padding around each logo */
     transition: transform 0.3s ease;
-    padding: 10px;      /* Padding inside each logo image */
 }
 
 .logos img:hover {
